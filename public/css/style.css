@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Staatliches&display=swap");
+p {
+  margin: 10px 0 !important;
+}
+.login-container {
+  width: 600px;
+  margin-top: 200px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.8;
+  font-family: "Arvo", serif;
+}
+.letter {
+  font-size: 6rem;
+  color: red;
+}
+.lead {
+  font-size: 1.3rem;
+}
+.fa-people-carry {
+  font-size: 4rem;
+}
+
+.back {
+  background-image: url("https://b.zmtcdn.com/data/o2_assets/b90ed7f7c7f06ce7a5b94b967d4ce3eb1621255947.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+}
+.fa-small {
+  font-size: 16px !important;
+}
+
+.btn-float {
+  float: left;
+  margin-right: 10px;
+}
+
+.img-small {
+  width: 180px;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Height of the footer */
+  background: #424242;
+}
+.footer-copyright,
+.foot {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.socials {
+  padding-left: 12rem;
+}
+.socials i {
+  color: white;
+  font-size: 1.5rem;
+  padding: 5px;
+}
